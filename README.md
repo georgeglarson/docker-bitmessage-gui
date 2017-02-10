@@ -1,4 +1,4 @@
-# j0rg3/docker-bitmessage-gui 
+# georgeglarson/docker-bitmessage-gui 
 
 
 # Bitmessage GUI in a Docker container
