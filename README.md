@@ -12,7 +12,7 @@
 # Introduction
 The purpose of this project is to make the Bitmessage GUI interface available on a system, through a [Docker](https://www.docker.com/) container, with the fluidity of applications natively installed.
 
-A description of how and why this project came to be can be found at [`j0rg3.com`](http://j0rg3.com).
+A description of how and why this project came to be can be found at [`j0rg3.com`](http://j0rg3.com/2017/02/17#20170217.making.a.docker.bitmessage).
 
 # Installation
 ```bash
@@ -59,6 +59,6 @@ docker kill $DID
 ```
 
 # References
-[http://j0rg3.com](http://j0rg3.com)
+[http://j0rg3.com/2017/02/17#20170217.making.a.docker.bitmessage](http://j0rg3.com/2017/02/17#20170217.making.a.docker.bitmessage)
 
 
