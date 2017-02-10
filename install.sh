@@ -17,6 +17,6 @@ ssh-keygen -b 4096 -P "" -C $"$(whoami)@$(hostname)-$(date -I)" -f docker-bitmes
 ln -fs docker-bitmessage-keys.pub authorized_keys
 
 # link to Bitmessage script for system-wide access
-ln -fs ~/docker-bitmessage/bitmessage /usr/local/bin/bitmessage
+ln -fs ~/docker-bitmessage-gui/bitmessage /usr/local/bin/bitmessage
 
 
