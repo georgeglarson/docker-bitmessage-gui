@@ -3,7 +3,7 @@
 set -euxo pipefail
 
 #download Docker container image
-docker pull j0rg3/docker-bitmessage-gui
+docker pull j0rg3/bitmessage-gui
 
 # make directory for Bitmessage configuration, data and SSH keys
 # nothing will happen if directory already exists
