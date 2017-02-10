@@ -1,4 +1,5 @@
 # georgeglarson/docker-bitmessage-gui 
+ [![Docker Pulls](https://img.shields.io/docker/pulls/j0rg3/bitmessage-gui.svg)](https://hub.docker.com/r/j0rg3/bitmessage-gui)
 
 
 # Bitmessage GUI in a Docker container
