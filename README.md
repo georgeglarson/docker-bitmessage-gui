@@ -20,7 +20,7 @@ git clone https://github.com/georgeglarson/docker-bitmessage-gui
 
 cd docker-bitmessage-gui
 
-.\install.sh
+./install.sh
 ```
 
 The installation script will:
