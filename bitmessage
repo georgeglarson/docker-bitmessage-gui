@@ -6,7 +6,7 @@ set -euxo pipefail
 #    port 8444 available, sharing local directories for SSH and Bitmessage data
 #    detatched, interactive, pseudo-tty (-dit)
 #  record container ID in $DID (Docker ID)
-DID=$(docker run -p 8444:8444 -v ~/.config/PyBitmessage/:/root/.config/PyBitmessage -v ~/.config/PyBitmessage/keys/:/root/.ssh/ -dit docker-bitmessage bash)
+DID=$(docker run -p 8444:8444 -v ~/.config/PyBitmessage/:/root/.config/PyBitmessage -v ~/.config/PyBitmessage/keys/:/root/.ssh/ -dit j0rg3/bitmessage-gui bash)
 
 # find IP address of new container, record in $DIP (Docker IP)
 DIP=$(docker inspect $DID | grep IPAddress | cut -d '"' -f 4)

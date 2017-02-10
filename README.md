@@ -52,7 +52,7 @@ ln -s ~/docker-bitmessage/bitmessage /usr/local/bin/bitmessage
 # Notes
 The commands contained in the 'bitmessage' script:
 ```bash
-DID=$(docker run -p 8444:8444 -v ~/.config/PyBitmessage/:/root/.config/PyBitmessage -v ~/.config/PyBitmessage/keys/:/root/.ssh/ -dit docker-bitmessage bash) && \
+DID=$(docker run -p 8444:8444 -v ~/.config/PyBitmessage/:/root/.config/PyBitmessage -v ~/.config/PyBitmessage/keys/:/root/.ssh/ -dit j0rg3/bitmessage-gui bash) && \
 DIP=$(docker inspect $DID | grep IPAddress | cut -d '"' -f 4) && \ 
 ssh -oStrictHostKeyChecking=no -oUserKnownHostsFile=/dev/null -oIdentityFile=~/.config/PyBitmessage/keys/docker-bitmessage-keys -X $DIP ./PyBitmessage/src/bitmessagemain.py && \
 docker kill $DID
