@@ -14,9 +14,9 @@ cd ~/.config/PyBitmessage/keys
 ssh-keygen -b 4096 -P "" -C $"$(whoami)@$(hostname)-$(date -I)" -f docker-bitmessage-keys
 
 # link so Docker container will see as pubkey
-ln -s docker-bitmessage-keys.pub authorized_keys
+ln -fs docker-bitmessage-keys.pub authorized_keys
 
 # link to Bitmessage script for system-wide access
-ln -s ~/docker-bitmessage/bitmessage /usr/local/bin/bitmessage
+ln -fs ~/docker-bitmessage/bitmessage /usr/local/bin/bitmessage
 
 
