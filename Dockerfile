@@ -9,6 +9,7 @@ RUN apt-get update && apt-get install -y \
     openssl \
     python  \ 
     python-qt4 \
+    python-msgpack \
     ssh \
 && apt-get clean \
 && rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
